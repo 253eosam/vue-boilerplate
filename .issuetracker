@@ -1,0 +1,7 @@
+# Integration with Issue Tracker
+#
+# (note that '\' need to be escaped).
+
+[issuetracker "WMP FE2 Jira Rule"]
+  regex = "(FE2|QA|SEARCHSVC)-(\\d+)"
+  url = "http://jira.wemakeprice.com/browse/$1-$2"
